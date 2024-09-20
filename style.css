@@ -3,7 +3,6 @@
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
-  background-color: #e0e0ed;
 }
 
 .Webpage {
@@ -11,4 +10,55 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+}
+
+.Features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.feature_1, .feature_2, .feature_3 {
+  background-color: aqua;
+  height: 200px;
+  width: 25vw;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.feature_1{
+
+}
+
+.feature_2 {
+
+}
+
+.feature_3 {
+
+}
+
+.text_feature {
+  font-size: 10px;
+}
+
+.head_feature {
+  margin-bottom: 0px;
+}
+
+img {
+  height: 20px;
+}
+
+.img_background {
+ background-color: white;
+ border-radius: 8px;
+ width: 30px;
+ height: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
