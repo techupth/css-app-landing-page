@@ -12,7 +12,115 @@ body {
 }
 
 /* Navigation bar section */
+.Webpage {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.Nav-bar {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 12px 80px 12px 80px;
+  justify-content: space-between;
+  margin: 10px;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(3, 3, 3, 0.2);
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 30%;
+  gap: 50px;
+  font-size: 1rem;
+}
+
+.Menu-home {
+  color: #5e44ff;
+  text-decoration: underline #5e44ff;
+}
 
 /* Title section */
+.Title-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  height: 968px;
+  top: 128px;
+  padding: 120px 120px 140px 120px;
+  gap: 50px;
+  opacity: 0px;
+}
+
+.Title-tag {
+  background-color: #563aff1a;
+  width: 236px;
+  height: 40px;
+  padding: 8px 20px 8px 20px;
+  gap: 0px;
+  border-radius: 20px;
+  opacity: 0px;
+  font-size: 14px;
+  color: #5e44ff;
+}
+
+.Content-1 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 84px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  display: inline;
+}
+
+.Content-color1 {
+  color: #5e44ff;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 84px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  display: inline;
+}
+
+.Content-color2 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 84px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  display: inline;
+}
+
+.Content-2 {
+  color: #1a1a2c;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+
+.Title-button {
+  background-color: #1a1a2c;
+  width: 187px;
+  height: 56px;
+  padding: 16px 36px 16px 36px;
+  gap: 6px;
+  border-radius: 20px;
+  opacity: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+/* Feature Section */
 
 /* Dev3_mocha login container*/
