@@ -14,5 +14,24 @@ body {
 /* Navigation bar section */
 
 /* Title section */
+.Feature_Section{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+
+.feature-box {
+    width: 25vw;
+    height: 300px;
+    
+    border-radius: 25px;
+
+}
+
+.aqua {
+    background-color: aqua;
+}
 
 /* Dev3_mocha login container*/
+
+
