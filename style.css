@@ -12,8 +12,6 @@ body {
   background-color: #f6f6fb;
 }
 
-
-
 /* Navigation bar section */
 .Webpage {
   display: flex;
@@ -21,7 +19,6 @@ body {
   height: 600px;
   width: 100vw;
 }
-
 
 .Nav-bar {
   display: flex;
@@ -127,90 +124,100 @@ body {
 
 /* Feature Section */
 .Feature_Section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5vw;
 }
 
 .feature-box {
-    width: 25vw;
-    height: 400px;
-    border-radius: 25px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  width: 25vw;
+  height: 400px;
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .feature-image img {
-    display: flex;
-    height: 32px;
-    border-radius: 20px;
-    margin: 10px;
+  display: flex;
+  height: 32px;
+  border-radius: 20px;
+  margin: 10px;
 }
 
-.Content-color{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 60px;
-    border-radius: 20px;
-    background-color: white;
+.Content-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .Content-color img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .D8E3F2 {
-    background-color: #D8E3F2;
+  background-color: #d8e3f2;
 }
 
 .DADDEE {
-    background-color: #DADDEE;
+  background-color: #daddee;
 }
 
 .E7DCEB {
-    background-color: #E7DCEB;
+  background-color: #e7dceb;
 }
-
-
 
 /* Feature Section */
 .Feature_Section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
 }
 
 .feature-box {
-    width: 25vw;
-    height: 300px;
-    border-radius: 25px;
+  width: 25vw;
+  height: 300px;
+  border-radius: 25px;
 }
 
 .D8E3F2 {
-    background-color: #D8E3F2;
+  background-color: #d8e3f2;
 }
 
 .DADDEE {
-    background-color: #DADDEE;
+  background-color: #daddee;
 }
 
 .E7DCEB {
-    background-color: #E7DCEB;
+  background-color: #e7dceb;
 }
 
 .feature-image img {
-    background-color: white;
+  background-color: white;
 }
 
 /* Dev3_mocha login container*/
 
-
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: black; */
+}
+.from-loign {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
