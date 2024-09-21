@@ -16,3 +16,17 @@ body {
 /* Title section */
 
 /* Dev3_mocha login container*/
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: black; */
+}
+.from-loign {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
