@@ -5,17 +5,20 @@
   font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
+  margin: 0px;
 }
 
 body {
   background-color: #f6f6fb;
 }
 
+
+
 /* Navigation bar section */
 .Webpage {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 600px;
   width: 100vw;
 }
 
@@ -51,8 +54,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1440px;
-  height: 968px;
+  width: 100vw;
+  height: 100px;
   top: 128px;
   padding: 120px 120px 140px 120px;
   gap: 50px;
@@ -116,11 +119,98 @@ body {
   border-radius: 20px;
   opacity: 0px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 24px;
   text-align: center;
 }
+
 /* Feature Section */
+.Feature_Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5vw;
+}
+
+.feature-box {
+    width: 25vw;
+    height: 400px;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.feature-image img {
+    display: flex;
+    height: 32px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.Content-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Content-color img {
+    width: 30px;
+    height: 30px;
+}
+
+.D8E3F2 {
+    background-color: #D8E3F2;
+}
+
+.DADDEE {
+    background-color: #DADDEE;
+}
+
+.E7DCEB {
+    background-color: #E7DCEB;
+}
+
+
+
+/* Feature Section */
+.Feature_Section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.feature-box {
+    width: 25vw;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.D8E3F2 {
+    background-color: #D8E3F2;
+}
+
+.DADDEE {
+    background-color: #DADDEE;
+}
+
+.E7DCEB {
+    background-color: #E7DCEB;
+}
+
+.feature-image img {
+    background-color: white;
+}
 
 /* Dev3_mocha login container*/
+
+
