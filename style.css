@@ -206,6 +206,8 @@ body {
   background-color: white;
 }
 
+/* Feature Section */
+
 /* Dev3_mocha login container*/
 
 .login-container {
@@ -216,8 +218,23 @@ body {
   /* background-color: black; */
 }
 .from-loign {
+  width: 1199px;
+  height: 666px;
   background-color: #ffff;
   display: flex;
   flex-direction: column;
-  width: 70%;
+  align-items: center;
+}
+.from-loign h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.login-center {
+  display: flex;
+
+  flex-direction: column;
+}
+.login-center input {
+  width: 589px;
 }
