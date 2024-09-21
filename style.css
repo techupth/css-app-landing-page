@@ -11,6 +11,8 @@ body {
   background-color: #f6f6fb;
 }
 
+
+
 /* Navigation bar section */
 .Webpage {
   display: flex;
@@ -122,19 +124,21 @@ body {
   text-align: center;
 }
 /* Feature Section */
-.Feature_Section{
+
+
+/* Feature Section */
+.Feature_Section {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 1.5vw;
 }
 
 .feature-box {
     width: 25vw;
     height: 300px;
-    
     border-radius: 25px;
-
 }
 
 .D8E3F2 {
@@ -148,6 +152,11 @@ body {
 .E7DCEB {
     background-color: #E7DCEB;
 }
+
+.feature-image img {
+    background-color: white;
+}
+
 /* Dev3_mocha login container*/
 
 
