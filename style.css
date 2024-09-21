@@ -17,6 +17,7 @@ body {
 .Feature_Section{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 1.5vw;
 }
 
@@ -28,10 +29,17 @@ body {
 
 }
 
-.aqua {
-    background-color: aqua;
+.D8E3F2 {
+    background-color: #D8E3F2;
 }
 
+.DADDEE {
+    background-color: #DADDEE;
+}
+
+.E7DCEB {
+    background-color: #E7DCEB;
+}
 /* Dev3_mocha login container*/
 
 
