@@ -185,14 +185,40 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1.5vw;
 }
 
 .feature-box {
     width: 25vw;
-    height: 300px;
+    height: 400px;
     border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.feature-image img {
+    display: flex;
+    height: 32px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.Content-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Content-color img {
+    width: 30px;
+    height: 30px;
 }
 
 .D8E3F2 {
@@ -207,9 +233,7 @@ body {
     background-color: #E7DCEB;
 }
 
-.feature-image img {
-    background-color: white;
-}
+
 
 /* Dev3_mocha login container*/
 
