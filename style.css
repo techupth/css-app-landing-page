@@ -1,9 +1,18 @@
 /* Start coding here */
 
 * {
-    font-family: "Poppins", sans-serif;  font-weight: 400;  font-style: normal;  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f6fb;
+  background-color: #f6f6fb;
 }
+
+/* Navigation bar section */
+
+/* Title section */
+
+/* Dev3_mocha login container*/
