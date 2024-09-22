@@ -1,9 +1,107 @@
 /* Start coding here */
-    /*--Toei-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+/* ผมจำเป็นต้องกำหนดสีพื้นหลังเพราะต้องทำเงา nav bar เลยใส่ฟ้อนต์ข้างบน และ สีพื้นหลังด้านล่างครับ */
+body {
+  background-color: #f9f9ff;
+  color: #333;
+}
+/*--Toei-*/
+/* nav bar start here */
+/* ผมพยายมใช้ display flex แล้วแต่มัน float ไม่ได้ผมเลยทำแบบนี้แล้วมันก็ไม่เหมือนท้อมาก 555*/
+.t-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
 
+#t-header {
+  background-color: #fff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+/* logo start here */
+#t-header .t-head1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: inline-block;
+}
+.t-span {
+  color: #5E44FF;
+  position:absolute;
+  top: 25px;
+  left: 195px;
+}
+/* logo end here */
 
-    /*--Pang--*/
+/* nav menu start here */
+#t-header .t-navbar {
+  display: inline-block;
+  float: right;
+  align-items: center;
+}
+#t-header .t-menu {
+  list-style: none;
+}
+#t-header .t-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+#t-header .t-menu #t-li,
+#t-text {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+/* nav menu end here */
 
+/* content start here */
+.t-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-top: 4rem ;
+}
 
-    
-    /*--Fluk--*/
+.t-section #t-head2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.t-section #t-head2 .t-span1 {
+  color: #5E44FF;
+}
+
+.t-section #t-p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+#t-rainbow {
+  background-color: #eeeafb;
+  border-radius: 20px;
+  padding: 0.3rem 0.5rem;
+  text-decoration: none;
+}
+
+.t-btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color:black;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 1.5rem;
+}
+/* content end here */
+
+/*--Pang--*/
+
+/*--Fluk--*/
