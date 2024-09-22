@@ -12,7 +12,7 @@ body {
 }
 /*--Toei-*/
 /* nav bar start here */
-/* ผมพยายมใช้ display flex แล้วแต่มัน float ไม่ได้ผมเลยทำแบบนี้แล้วมันก็ไม่เหมือนท้อมาก 555*/
+/* ผมพยายามใช้ display flex แล้วแต่มัน float ไม่ได้ผมเลยทำแบบนี้แล้วมันก็ไม่เหมือนท้อมาก 555*/
 .t-container {
   width: 90%;
   max-width: 1200px;
