@@ -1,1 +1,266 @@
-/* Start coding here */
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    border: #333 solid 1px;
+    /* padding: 20px; */
+}
+
+.container {
+    width: 95%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 99px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1{
+    color: #1A1A2C;
+    font-size: 30px;
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu ul {
+    display: flex;
+    gap: 24px;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: #6c5ce7;
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+    margin-top: 90px;
+
+    p{
+        color: #5E44FF;
+    }
+    
+}
+
+section h1 {
+    font-size: 96px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #1A1A2C;
+}
+
+section span {
+    color: #5E44FF;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    background: #1A1A2C;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background: #6c5ce7;
+}
+
+.info p {
+    margin-top: 30px;
+    color: #1A1A2C;
+    font-weight: 550;
+    font-size: 28px;
+}
+
+
+
+
+
+/* Sention2 Stamp */
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.boxinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 387px;
+    height: 272px;
+    padding: 28px;
+    border-radius: 24px;
+}
+
+.boxinfo.item1{
+    background-color: #D7E5F6;
+}
+
+.boxinfo.item2{
+    background-color: #D8E0FC;
+}
+
+.boxinfo.item3{
+    background-color: #E8DCF6;
+}
+
+.boxinfo img{
+    width: 32px;
+    height: 32px;
+    top: 14px;
+    left: 14px;
+}
+
+.box2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 331px;
+    height: 116px;
+}
+
+.box2-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+}
+
+.box2-text h3{
+    font-size:  24px;
+    width: 331px;
+    height: 32px;
+    color: #1A1A2C;
+    text-align: left; 
+}
+
+.box2-text p{
+    font-size:  16px;
+    width: 331px;
+    height: 72px;
+    color: #5f5f76;
+    text-align: left; 
+}
+
+
+
+/* Fuu  */
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 80px;
+}
+.containerInput3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.textOnInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 261px;
+    height: 48px;
+}
+.boxInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 589px;
+    height: 76px;
+}
+#name{
+    width: 589px;
+    height: 76px;
+}
+#email{
+    width: 589px;
+    height: 76px;
+}
+#message{
+    width: 589px;
+    height: 130px;
+}
+.submit{
+    background-color: #1a1a2c;
+    color: white;
+    margin-top: 30px;
+    width: 589px;
+    height: 56px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.footerBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footerText{
+    font-size: 16px;
+    width: 237px;
+    height: 24px;
+    margin-bottom: 30px;
+}
+.footerLink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 313px;
+    height: 24px;
+    gap: 37px;
+    margin-bottom: 30px;
+}
+    
