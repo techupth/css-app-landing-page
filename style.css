@@ -1,1 +1,119 @@
 /* Start coding here */
+body {
+    padding: 24px;
+    background-color: #F6F6FB;
+}
+
+.section-card, .section-contact {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 28px;
+    width: 30%;
+    min-height: 250px;
+}
+
+.card .icon-wrap {
+    margin-bottom: 40px;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.card-1 {
+    background-color: #D7E5F6;
+}
+
+.card-2 {
+    background-color: #D8E0FC;
+}
+
+.card-3 {
+    background-color: #E8DCF6;
+}
+
+.card .card-title {
+    color: #1A1A2C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card .card-detail {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-wrap {
+    border-radius: 16px;
+    width: 100%;
+    max-width: 1198px;
+    padding: 80px 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 589px;
+}
+
+.form-wrap .form-title {
+    width: 100%;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.form-wrap .input-wrap {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrap .input-wrap label {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5F5F76;
+}
+
+input,textarea {
+    border: 1px solid #E0E0ED;
+    border-radius: 12px;
+    padding: 12px 16px;
+}
+
+input::placeholder,textarea::placeholder {
+   font-size: 16px;
+   font-weight: 400;
+   color: #9393AC;   
+}
+
+input:hover,textarea:hover {
+    border: 1px solid #B5A9FF;
+}
+
+.btn-submit {
+ width: 100%;
+ border: 1px solid #1A1A2C;
+ border-radius: 16px;
+ padding: 16px 36px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #1A1A2C;
+ color: #fff;
+}
