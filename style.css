@@ -46,6 +46,11 @@
 .feature-details {
     color: #5f5f76;
 }
+
+.feature-section {
+    margin: 0;
+    padding: 120px 120px 140px 120px;
+}
 /* Start coding here */
 * {
   box-sizing: border-box;
