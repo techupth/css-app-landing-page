@@ -46,6 +46,115 @@
 .feature-details {
     color: #5f5f76;
 /* Start coding here */
+* {
+  box-sizing: border-box;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: hug;
+  padding: 80px 120px 80px 120px;
+  border-radius: 24px;
+}
+
+.contact-header {
+  color: black;
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  color: #5f5f76;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.contact-form input {
+  padding: 12px 12px 12px 16px;
+  gap: 4px;
+  height: hug;
+  width: 589px;
+  border-radius: 12px;
+  border: 1px solid #e0e0ed;
+}
+
+.contact-form textarea {
+  padding: 12px 2px 2px 16px;
+  gap: 10px;
+  height: 102px;
+  width: 589px;
+  border-radius: 12px;
+  border: 1px solid #e0e0ed;
+  resize: vertical;
+  min-height: 80px;
+  max-height: 200px;
+}
+
+.contact-form input::placeholder {
+  color: #9393ac;
+  font-size: 1rem;
+}
+
+.contact-form textarea::placeholder {
+  color: #9393ac;
+  font-size: 1rem;
+}
+
+.btn .btn-submit {
+  margin-top: 50px;
+  height: hug;
+  width: 589px;
+  border-radius: 16px;
+  color: #ffffff;
+  background-color: #1a1a2c;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 16px 36px 16px 36px;
+}
+
+.footer-web {
+  width: 100%;
+  margin-top: auto;
+  padding: 0px 120px 80px 120px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: hug;
+}
+
+.footer-inner p {
+  color: #5f5f76;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 37px;
+  font-weight: 600;
+}
+
+.footer-nav a {
+  width: hug;
+  height: hug;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #1a1a2c;
+}
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 html{
     box-sizing: border-box;
