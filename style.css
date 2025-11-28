@@ -1,1 +1,97 @@
-/* Start coding here */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #F6F6FB;
+}
+nav{
+    padding: 24px;
+    gap: 10px;
+}
+.nav-bar{
+    border-radius: px;
+    width: 1392px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-radius: 99px;
+    padding: 12px 80px 12px 80px;
+}
+.logo-title,
+.logo-title img{
+    background-color: white;
+}
+.menu{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    font-style: medium;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-basis: 40%;   
+}
+.nav-items,
+.home-nav-items{
+    background-color: white;
+}
+.home-nav-items{
+    color: #5E44FF;
+}
+.nav-items{
+    text-decoration: none;
+    color: #1A1A2C;
+}
+.title-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:120px;
+    gap:40px;
+}
+.title-card p{
+    font-family: "Inter", sans-serif;
+    font-size:  16px;
+    text-align: center;
+    width: 236px;
+    height: 40px;
+    border: none;
+    border-radius: 999px;
+    background-color: #e8e5f8;
+    color: #5E44FF;
+    padding: 8px 20px 8px 20px;
+}
+.title-card h1{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    gap: 24px;
+    font-weight: bold;
+    color: #1A1A2C;
+}
+.title-card h3{
+    font-family: "Inter", sans-serif;
+    font-size: 24px ;
+    font-weight: 600;
+    color: #1A1A2C;
+}
+.title-card button{
+    width: 187px;
+    height: 56px;
+    padding: 16px 36px 16px 36px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #1A1A2C;
+    gap:6px;
+    border: none;
+    border-radius: 16px;
+}
