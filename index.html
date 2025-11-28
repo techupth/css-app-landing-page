@@ -5,9 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap" rel="stylesheet">
     <title>Acme App</title>
   </head>
   <body>
-    <!-- Start Coding Here -->
+        <!-- Start Coding Here -->
+    <header class="nav-wrapper">
+      <nav class="nav-container">
+        <div class="nav-container-logo">
+          <a href="#home"><img class="page-logo" src="./picture/logo.png" alt="Acme Logo" /></a>
+        </div>
+        <div class="nav-container-menu">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-badge">
+          <span class="hero-badge-icon" aria-hidden="true">🌈</span>
+          Acme Productivity App
+        </div>
+        <h1 class="hero-title">Boost Your <span>Product</span>ivity</h1>
+        <p class="hero-subtitle">
+          Streamline your workflow with our all-in-one productivity app.
+        </p>
+        <button class="hero-btn-trial">Start Free Trial</button>
+      </section>
+
+    <section class="section">
+          <div class="cards-row">
+            <!-- card 1 -->
+            <article class="card">
+              <div class="icon-badge" aria-hidden="true">
+                <!-- use inline svg or emoji as icon -->
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#5843FF"/>
+                </svg>
+              </div>
+
+              <div class="card-content">
+                <h3 class="card-title">Streamlined Workflows</h3>
+                <p class="card-desc">Automate repetitive tasks and focus on high-impact work with our powerful productivity features.</p>
+              </div>
+            </article>
+
+        <!-- card 2 -->
+        <article class="card">
+          <div class="icon-badge" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 13h3v6H3v-6zm5-8h3v14H8V5zm5 4h3v10h-3V9zm5-6h3v16h-3V3z" fill="#5E4BFF"/>
+            </svg>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">Blazing Fast Performance</h3>
+            <p class="card-desc">Experience lightning-fast performance and instant responsiveness with our cutting-edge technology.</p>
+          </div>
+        </article>
+
+        <!-- card 3 -->
+        <article class="card">
+          <div class="icon-badge" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 6a2 2 0 110 4 2 2 0 010-4zm0 10c-2.7 0-5-1.3-6.4-3 .1-2.1 4.3-3.3 6.4-3.3 2 0 6.3 1.2 6.4 3.3C17 16.7 14.7 18 12 18z" fill="#6E3BFF"/>
+            </svg>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-title">Intuitive Interface</h3>
+            <p class="card-desc">Our user-friendly interface makes it easy for anyone to streamline their workflow.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+ <!-- Start Coding Here -->
+    <!-- DEV3 start -->
+    <footer>
+        <section class="contact-section container">
+            <div class="contact-form-wrapper">
+                <h2>Get in Touch</h2>
+                <form>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary btn-block">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="footer-bottom">
+            <div class="container footer-content">
+                <div class="copyright">Acme productivity app ©2024</div>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">AI Policy</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- DEV3 End -->
   </body>
 </html>
+  

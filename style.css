@@ -1,1 +1,424 @@
 /* Start coding here */
+body{
+    background-color: #e7ecef;
+    margin: 0;
+}
+.nav-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.nav-container{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    margin: 0 30px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 8px 24px rgba(15, 15, 26, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.nav-container:hover{
+    transform: translateY(-2px) scale(1.005);
+    box-shadow: 0 18px 40px rgba(15, 15, 26, 0.18);
+}
+.nav-container-logo{
+    font-size: 24px;
+    font-weight:900 ;
+    padding-left: 50px;
+    cursor: pointer;
+}
+.nav-container-logo .page-logo{
+    width: 100px;
+}
+.nav-container-menu{
+    flex-basis: 35%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-container-menu a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-container-menu a:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline
+}
+.hero{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 140px 20px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+}
+.hero-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #5d5be7;
+    background-color: #e7e3ff;
+    border-radius: 999px;
+    box-shadow: 0 10px 30px rgba(93, 91, 231, 0.25);
+}
+.hero-badge-icon{
+    font-size: 1.1rem;
+}
+.hero-title{
+    font-size: clamp(2.8rem, 6vw, 4.6rem);
+    line-height: 1.1;
+    font-weight: 900;
+    margin: 0;
+}
+.hero-title span{
+    color: #682eef;
+}
+.hero-subtitle{
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2b2d3a;
+}
+.hero-btn-trial{
+    margin-top: 12px;
+    padding: 18px 48px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: #11142d;
+    border: none;
+    border-radius: 999px;
+    box-shadow: 0 18px 30px rgba(17, 20, 45, 0.35);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hero-btn-trial:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 24px 40px rgba(17, 20, 45, 0.4);
+}
+
+/* โซนที่ครอบทั้ง 3 กล่อง */
+.features-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f6f6fe;
+  font-family: sans-serif;
+}
+
+/* กล่อง Card */
+.feature-card {
+  width: 320px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+/* Hover effect ให้ลอยนิดๆ */
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+}
+
+/* ไอคอนวงกลม */
+.icon-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.feature-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Description */
+.feature-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+  :root{
+    --bg: #f6f5f9;
+    --card-radius: 18px;
+    --card-padding: 34px;
+    --accent-1: #DAFAFA; /* pastel blue */
+    --accent-2: #FBCCE0; /* pastel pink */
+    --accent-3: #DDF2D1; /* pastel green */
+    --icon-bg: rgba(255,255,255,0.9);
+    --text-dark: #12202b;
+    --muted: #6b7a86;
+  }
+
+  /* reset + base */
+  * { box-sizing: border-box; }
+  html,body { height:100%; margin:0; font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--text-dark); }
+  img { max-width:100%; display:block; }
+
+  /* container (page centering) */
+  .section {
+    padding: 48px 24px;
+    display:flex;
+    justify-content:center;
+  }
+
+  /* wrapper to limit width */
+  .cards-row {
+    width:100%;
+    max-width:1100px;
+    display:flex;
+    gap: 10px;
+    align-items: stretch; /* make cards same height if needed */
+  }
+
+  /* single card */
+  .card {
+    position: static;
+    flex: 1 1 0; /* flexible, share space */
+    min-width: 240px;
+    background: var(--accent-1);
+    border-radius: var(--card-radius);
+    padding: var(--card-padding);
+    box-shadow: 0 6px 18px rgba(20,30,40,0.04);
+    display:flex;
+    flex-direction:column;
+    overflow: hidden;
+  }
+
+  /* different background colors */
+  .card:nth-child(1) { background: var(--accent-1); }
+  .card:nth-child(2) { background: var(--accent-2); }
+  .card:nth-child(3) { background: var(--accent-3); }
+
+  /* icon badge (small rounded square) */
+  .icon-badge {
+    width:44px;
+    height:44px;
+    border-radius: 10px;
+    background: var(--icon-bg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 0 2px 8px rgba(16,24,32,0.04);
+  }
+
+  /* title, adjust top margin so it doesn't overlap with icon */
+  .card-title {
+    margin:0;
+    font-size: 25px;
+    font-weight: 700;
+    color: #12202b;
+  }
+
+  .card-desc {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 88%;
+  }
+
+  /* spacing so content doesn't sit under icon: add padding-top equal to icon+space */
+  .card-content {
+    margin-top: 8px;
+    padding-top: 18px;
+    display:flex;
+    flex-direction:column;
+    gap: 12px;
+  }
+
+  /* make titles larger like image */
+  .card .card-title { font-size: 22px; }
+
+  /* small responsive tweaks */
+  @media (max-width: 900px) {
+    .cards-row { gap: 18px; }
+    .card { padding: 28px; }
+    .icon-badge { left: 22px; top: 22px; width:40px; height:40px; border-radius:9px; }
+  }
+
+  @media (max-width: 720px) {
+    .cards-row {
+      flex-direction:column;
+    }
+    .card { min-width: auto; width:100%; }
+    .icon-badge { left: 18px; top: 18px; }
+    .card-desc { max-width: 100%; }
+  }
+
+/* ================================================================= */
+/* [DEV 3] WORKSPACE : FOOTER (Contact + Links)                      */
+/* ================================================================= */
+
+/* 1. ตั้งค่าพื้นฐานเฉพาะพื้นที่ Footer */
+footer {
+    font-family: 'Inter', sans-serif;
+    color: #111827;
+    box-sizing: border-box;
+}
+
+/* ตั้งค่า Container เฉพาะใน Footer */
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* --- Contact Section --- */
+footer .contact-section {
+    padding: 80px 0 100px 0; /* เพิ่มระยะห่างให้ดูโล่งสบายตา */
+    display: flex;
+    justify-content: center;
+}
+
+/* กล่องฟอร์ม (ตกแต่งให้ดูเป็น Card มีเงา) */
+footer .contact-form-wrapper {
+    width: 100%;
+    max-width: 500px; /* บีบให้แคบลงนิดนึงเพื่อความสวยงาม */
+    background-color: white;
+    padding: 40px;    /* เพิ่มพื้นที่ภายใน */
+    border-radius: 16px; /* มุมโค้งมน */
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1); /* เงาสวยๆ */
+    box-sizing: border-box;
+}
+
+footer .contact-form-wrapper h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800; /* ตัวหนาพิเศษ */
+    color: #111827;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* จัดการระยะห่างแต่ละช่องกรอก */
+footer .form-group {
+    margin-bottom: 24px;
+}
+
+footer .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #374151;
+}
+
+/* ตกแต่ง Input และ Textarea */
+footer input, 
+footer textarea {
+    width: 100%;
+    padding: 14px; /* เพิ่มพื้นที่คลิก */
+    background-color: #F9FAFB; /* สีพื้นหลังเทาอ่อนมากๆ */
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #1F2937;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.2s ease; /* ทำให้อนิเมชั่นลื่นไหล */
+}
+
+footer textarea { 
+    height: 120px; 
+    resize: vertical; /* ย่อขยายได้แค่แนวตั้ง */
+}
+
+/* Effect ตอนคลิกพิมพ์ (Focus State) */
+footer input:focus, 
+footer textarea:focus {
+    background-color: #FFFFFF;
+    border-color: #8B5CF6; /* เปลี่ยนขอบเป็นสีม่วง */
+    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.1); /* มีเงาสีม่วงจางๆ รอบๆ */
+}
+
+/* ปุ่ม Submit */
+footer .btn-primary {
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Effect ตอนเอาเมาส์ชี้ปุ่ม */
+footer .btn-primary:hover {
+    background-color: #000000; /* สีเข้มขึ้น */
+    transform: translateY(-2px); /* ลอยขึ้นนิดนึง */
+}
+
+/* Effect ตอนกดปุ่ม */
+footer .btn-primary:active {
+    transform: translateY(0); /* ยุบลงคืน */
+}
+
+/* --- Footer Bottom (Links & Copyright) --- */
+footer .footer-bottom {
+    background-color: #FFFFFF;
+    border-top: 1px solid #F3F4F6;
+    padding: 40px 0;
+    margin-top: 0;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #6B7280;
+}
+
+/* จัดลิงก์แนวนอน */
+footer .footer-links {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+    color: #4B5563;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    transition: color 0.2s;
+}
+
+/* Effect ตอนชี้ลิงก์ */
+footer .footer-links a:hover {
+    color: #8B5CF6; /* เปลี่ยนเป็นสีม่วง Theme หลัก */
+}
