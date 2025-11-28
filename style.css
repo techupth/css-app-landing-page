@@ -1,1 +1,153 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+.Navbar {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: groove;
+    border-radius: 10px;
+    padding: 24px;
+    font-size: 2rem;
+    height: 40px;
+}
+
+.Herosection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:60px;
+    
+}
+
+.freetrialbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freetrialbutton button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.purple-text {
+    color: #5E44FF;
+    margin: 0;   
+}
+
+#Advertise {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.applink {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: lightgray;
+    color: #5E44FF;
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rainbow-icon-small {
+    display: inline-block;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+
+
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+img {
+    margin: 40px 15px 0px 20px;
+    padding: 14px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.rocket-emoji {
+    width: 28px;
+    height: 28px;
+}
+
+.smile-emoji {
+    width: 26px;
+    height: 26px;
+}
+
+.graph-emoji {
+    width: 28px;
+    height: 26px;
+}
+
+section {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.features-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 1201px;
+    height: 272px;
+}
+
+.features-selection-box1 {
+    background-color: #D7E5F6;
+    border-radius: 24px;
+    width: 387px;
+    height: 262px;
+}
+
+.features-selection-box2 {
+    background-color: #D8E0FC;
+    border-radius: 24px;
+    width: 387px;
+    height: 262px;
+}
+
+.features-selection-box3 {
+    background-color: #E8DCF6;
+    border-radius: 24px;
+    width: 387px;
+    height: 262px;
+}
+
+.features-selection-description {
+    color: #5F5F76;
+    font-size: 16px;
+    margin: 20px;
+    font-weight: 500;
+}
+
+.features-selection-title {
+    font-size: 24px;
+    margin: 20px 20px 5px 20px;
+    font-weight: 600;
+}
