@@ -1,1 +1,54 @@
-/* Start coding here */
+body {
+    margin: 0;
+    padding: 120px 120px 140px 120px;
+    font-family: 'Roboto', sans-serif;    
+}
+
+.feature-box {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.streamlined {
+    box-sizing: border-box;
+    padding: 28px;
+    border-radius: 24px;
+    background-color: #d7e5f6;
+
+}
+
+.icon {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blazing {
+    box-sizing: border-box;
+    padding: 28px;
+    background-color: #d8e0fc;
+    border-radius: 24px;
+}
+
+.intuitive {
+    box-sizing: border-box;
+    padding: 28px;
+    background-color: #E8DCF6;
+    border-radius: 24px;
+}
+
+.feature-title {
+    color: #1a1a2c;
+}
+
+.feature-details {
+    color: #5f5f76;
+}
