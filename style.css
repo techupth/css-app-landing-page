@@ -152,7 +152,6 @@ a{
     padding: 28px;
     border-radius: 24px;
     background-color: #d7e5f6;
-
 }
 
 .icon {
@@ -193,9 +192,7 @@ a{
     padding: 120px 120px 140px 120px;
 }
 /* Start coding here */
-* {
-  box-sizing: border-box;
-}
+
 
 .contact-section {
   display: flex;
