@@ -192,9 +192,7 @@ a {
   padding: 120px 120px 140px 120px;
 }
 /* Start coding here */
-* {
-  box-sizing: border-box;
-}
+
 
 .contact-section {
   display: flex;
