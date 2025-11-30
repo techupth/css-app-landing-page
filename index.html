@@ -4,10 +4,105 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Acme App</title>
   </head>
   <body>
-    <!-- Start Coding Here -->
+    <nav class="nav-bar">
+      <div class="nav-deco">
+        <div class="logo">Acme</div>
+        <ul class="nav-menu">
+          <li class="menu-list"><a href="#home">Home</a></li>
+          <li class="menu-list"><a href="#features">Features</a></li>
+          <li class="menu-list"><a href="#pricing">Pricing</a></li>
+          <li class="menu-list"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="hero">
+      <div class="hero-content">
+        <p class="welcome-text">🌈Acme Productivity App</p>
+        <h1 class="content-text-huge">Boost Your <span>Product</span>ivity</h1>
+        <h3 class="content-text-small">
+          Streamline your workflow with our all-in-one productivity app.
+        </h3>
+        <button class="trial-button">Start Free Trial</button>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="feature-box">
+        <div class="streamlined">
+          <div class="icon">
+            <img
+              src="./feature-pic/streamlined-icon.png"
+              alt="streamlined-icon"
+            />
+          </div>
+          <h2 class="feature-title">Streamlined Workflows</h2>
+          <p class="feature-details">
+            Automate repetitive tasks and focus on high-impact work with our
+            powerful productivity features.
+          </p>
+        </div>
+        <div class="blazing">
+          <div class="icon">
+            <img src="./feature-pic/blazing-icon.png" alt="blazing-icon" />
+          </div>
+          <h2 class="feature-title">Blazing Fast Performance</h2>
+          <p class="feature-details">
+            Experience lightning-fast performance and instant responsiveness
+            with our cutting-edge technology.
+          </p>
+        </div>
+        <div class="intuitive">
+          <div class="icon">
+            <img src="./feature-pic/intuitive-icon.png" alt="intuitive-icon" />
+          </div>
+          <h2 class="feature-title">Intuitive Interface</h2>
+          <p class="feature-details">
+            Our user-friendly interface makes it easy for anyone to streamline
+            their workflow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <h2 class="contact-header">Get in Touch</h2>
+      <form class="contact-form">
+        <label for="name" id="lb-name">Name</label>
+        <input type="text" placeholder="John Doe" id="name" />
+        <label for="email" id="lb-email">Email</label>
+        <input type="email" placeholder="john@example.com" id="email" />
+        <label for="message" id="lb-msg">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message..."
+        ></textarea>
+        <div class="btn">
+          <button type="submit" class="btn-submit">Submit</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer-web">
+      <div class="footer-inner">
+        <p>Acme productivity app ©2024</p>
+        <nav class="footer-nav">
+          <a href="">FAQ</a>
+          <a href="">Terms</a>
+          <a href="">AI Policy</a>
+          <a href="">Pricing</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
