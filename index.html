@@ -1,13 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>Acme App</title>
   </head>
   <body>
-    <!-- Start Coding Here -->
+    <nav class="navbar">
+      <h1 class="navbar__logo">Acme<sup>*</sup></h1>
+      <div class="navbar__menu">
+        <a href="#" class="navbar__link navbar__link--active">Home</a>
+        <a href="#" class="navbar__link">Features</a>
+        <a href="#" class="navbar__link">Pricing</a>
+        <a href="#" class="navbar__link">Contact</a>
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero__badge">🌈 Acme Productivity App</div>
+      <h1 class="hero__title">
+        Boost Your <span class="hero__highlight">Product</span>ivity
+      </h1>
+      <p class="hero__subtitle">
+        Streamline your workflow with our all-in-one productivity app.
+      </p>
+      <button class="hero__button">Start Free Trial</button>
+    </section>
   </body>
+</html>
+
+/* part 2 feature section*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features Section</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="features-wrapper">
+  
+  <div id="card-1" class="feature-card">
+    <div class="icon-box">🚀</div>
+    <h3>Streamlined Workflows</h3> 
+    <p>Automate repetitive tasks and focus on high-impact work with our powerful productivity features.</p> 
+  </div>
+  
+  <div id="card-2" class="feature-card">
+    <div class="icon-box">📊</div>
+    <h3>Blazing Fast Performance</h3> 
+    <p>Experience lighting-fast performance and instant responsiveness.</p> 
+  </div>
+  
+  <div id="card-3" class="feature-card">
+    <div class="icon-box">😊</div>
+    <h3>Intuitive Interface</h3> 
+    <p>Our user-friendly interface makes it easy for anyone to streamline.</p> 
+  </div>
+
+</div>
+
+</body>
 </html>
