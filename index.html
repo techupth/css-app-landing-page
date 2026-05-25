@@ -9,5 +9,76 @@
   </head>
   <body>
     <!-- Start Coding Here -->
+    <!-- Dev 1 : Nav Bar + Hero Section -->
+    <section class="hero">
+      <nav class="hero__nav" aria-label="Main navigation">
+        <div class="hero__nav-inner">
+          <a href="#" class="hero__logo">
+            Acme<span class="hero__logo-dot" aria-hidden="true"></span>
+          </a>
+          <ul class="hero__nav-list">
+            <li>
+              <a href="#" class="hero__nav-link hero__nav-link--active">Home</a>
+            </li>
+            <li><a href="#" class="hero__nav-link">Features</a></li>
+            <li><a href="#" class="hero__nav-link">Pricing</a></li>
+            <li><a href="#" class="hero__nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero__content">
+        <span class="hero__badge">🌈 Acme Productivity App</span>
+        <h1 class="hero__title">
+          Boost Your <span class="hero__title-accent">Productivity</span>
+        </h1>
+        <p class="hero__subtitle">
+          Streamline your workflow with our all-in-one productivity app.
+        </p>
+        <a href="#" class="hero__cta">Start Free Trial</a>
+      </div>
+    </section>
+
+    <!-- Dev 2 : Feature Section -->
+
+    <!-- Dev 3 : Contact Section -->
+     
+    <div class="main-container">
+        <div class="card">
+            <h1>Get in Touch</h1>
+            
+            <form onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" class="form-control" placeholder="John Doe">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="john@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" class="form-control" placeholder="Your message..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            Acme productivity app ©2024
+        </div>
+        <div class="footer-links">
+            <a href="#">FAQ</a>
+            <a href="#">Terms</a>
+            <a href="#">AI Policy</a>
+            <a href="#">Pricing</a>
+        </div>
+    </footer>
+
   </body>
 </html>
